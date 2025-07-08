@@ -91,10 +91,10 @@ export default async function handler(req, res) {
       }
     } catch (err) {
       console.error("Geocoding error:", err);
-      // Optional: Push without coordinates, or skip
+      
     }
 
-    await new Promise((resolve) => setTimeout(resolve, 700)); // simulate incremental
+    await new Promise((resolve) => setTimeout(resolve, 700)); 
   }
 
   res.status(200).json(geocodedProjects);

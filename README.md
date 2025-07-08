@@ -13,6 +13,7 @@ A full-stack real estate listing web application built with **Next.js** that dyn
 - 🧠 **Context API** for global project state
 
 LIVE DEMO - https://realstate-blue.vercel.app
+You can watch the screen recording [here](https://drive.google.com/file/d/19R-6QBgGRk8MfdrfiWk9N96nTIGIfac7/view?usp=sharing).
 
 File Structure :
 <img width="317" alt="Screenshot 2025-07-08 at 10 14 16 PM" src="https://github.com/user-attachments/assets/8c54965b-1822-4a91-b3bd-9624971267f6" />

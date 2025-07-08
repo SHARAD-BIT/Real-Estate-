@@ -28,7 +28,7 @@ export default function CityPage() {
 
   return (
     <>
-      {/* Project Cards Container */}
+    
       <div className="p-6 max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-4 text-rose-900 text-center">
           Projects in {cityName}
@@ -52,7 +52,7 @@ export default function CityPage() {
         )}
       </div>
 
-      {/* Full-Width Map Container */}
+    
       {!loading && projects.length > 0 && (
         <div className="w-full mt-10 px-0">
           <h2 className="text-2xl font-semibold mb-4 text-center  text-rose-900">

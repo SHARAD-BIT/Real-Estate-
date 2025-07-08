@@ -7,7 +7,7 @@ import { ProjectProvider } from "../context/ProjectContext";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    // Only run on client
+  
     if (typeof window !== "undefined") {
       (async () => {
         const L = await import("leaflet");
